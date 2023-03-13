@@ -1,9 +1,10 @@
 *.log
 *.pot
 *.pyc
-__pycache__/
 
 .env
 .venv
 db.sqlite3
-app/app/__pycache__/
+*__pycache__/
+
+*migrations/
